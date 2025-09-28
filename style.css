@@ -1,0 +1,70 @@
+body {
+  background: #18192A;
+  color: #F3F5FC;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+.container {
+  max-width: 640px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #23243C;
+  border-radius: 8px;
+  box-shadow: 0 0 16px #0ff2;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+input[type="text"] {
+  width: 90%;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border: 1px solid #4040f0;
+  background: #23243C;
+  color: #F3F5FC;
+}
+button {
+  padding: 8px 18px;
+  background: #0ff;
+  color: #18192A;
+  border: none;
+  border-radius: 4px;
+  margin-botton: 18px;
+  cursor: pointer;
+}
+button:hover {
+  background: #08f;
+  color: #fff;
+}
+.player-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 12px 0;
+}
+.controls {
+  margin: 10px 0;
+  text-align: center;
+}
+select {
+  padding: 5px;
+  margin-left: 8px;
+  border-radius: 4px;
+  background: #1e1e3a;
+  color: #fff;
+}
+.adblocker {
+  background: #1e283c;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+.adblocker h3 {
+  margin: 0 0 8px 0;
+  color: #00ffee;
+}
+.adblocker a {
+  color: #0ff;
+  text-decoration: underline;
+}
