@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Player with Speed & AdBlock Guide</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>YouTube Player With Speed Control</h2>
+    <input id="yt-link" type="text" placeholder="Paste YouTube share link here">
+    <button onclick="loadVideo()">Play Video</button>
+    <div class="player-wrapper">
+      <iframe id="yt-player" width="560" height="315" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="controls">
+      <label>Speed:</label>
+      <select id="speed-select" onchange="changeSpeed()">
+        <option value="1">1x</option>
+        <option value="1.5">1.5x</option>
+        <option value="2">2x</option>
+        <option value="2.5">2.5x</option>
+        <option value="3">3x</option>
+        <option value="3.5">3.5x</option>
+        <option value="4">4x</option>
+        <option value="5">5x</option>
+        <option value="6">6x</option>
+        <option value="7">7x</option>
+        <option value="8">8x</option>
+      </select>
+    </div>
+    <div class="adblocker">
+      <h3>Ad Blocking Guide</h3>
+      <ul>
+        <li>For best ad-free experience, install <a href="https://ublockorigin.com" target="_blank">uBlock Origin</a> or <a href="https://adblockplus.org" target="_blank">Adblock Plus</a> in your browser.</li>
+        <li>If ads still show in the embed, install these and reload.</li>
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
